@@ -1,0 +1,10 @@
+command g tabnew google
+set noautofocus " The opposite of autofocus; this setting stops
+                " sites from focusing on an input box when they load
+let hintcharacters = "aoeuhtnskbid"
+unmap J K H L
+map L nextTab
+map H previousTab
+map J goBack
+map K goForward
+let blacklists = ["https://ngs-team.slack.com/*"]
